@@ -1,0 +1,42 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ /* Ensure the form fits within the WordPress admin styling */
+ .custom-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.custom-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.custom-form input[type="text"],
+.custom-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.custom-form input[type="submit"] {
+    background-color: #0073aa;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.custom-form input[type="submit"]:hover {
+    background-color: #005177;
+}
+
